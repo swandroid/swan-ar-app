@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: interdroid.swancore.swanmain:swaninterface-1.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swaninterface-1.0.3.aar/c1bec2e55241d5017231995c531bec63/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swaninterface-1.0.3.aar/c1bec2e55241d5017231995c531bec63/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/interdroid.swancore.swanmain/swaninterface/1.0.3/3a93b8052f687a734abee487616659245e91b5a4/swaninterface-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="bijlmer" size="0.250000 0.072995" />
+    <ImageTarget name="zuid" size="0.250000 0.085558" />
+    <ImageTarget name="rai" size="0.250000 0.040037" />
+    <ImageTarget name="sea" size="0.250000 0.159500" />
+    <ImageTarget name="leiden" size="0.250000 0.038814" />
+    <ImageTarget name="zoom" size="0.250000 0.038984" />
+  </Tracking>
+</QCARConfig>
