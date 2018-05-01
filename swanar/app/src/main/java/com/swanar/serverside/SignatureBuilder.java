@@ -3,6 +3,7 @@ package com.swanar.serverside;
 import android.app.Activity;
 
 import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
 import org.apache.http.client.methods.HttpUriRequest;
@@ -53,7 +54,9 @@ public class SignatureBuilder extends Activity {
 			System.out.println("ERROR: IOException caught when writing Content MD5 hash");
 			e.printStackTrace();
 		}
-		return DigestUtils.md5Hex(requestOutputStream.toByteArray()).toLowerCase();
+		//return DigestUtils.md5Hex(requestOutputStream.toByteArray()).toLowerCase();
+		String s = new String(Hex.encodeHex(DigestUtils.md5(requestOutputStream.toByteArray()))).toLowerCase();
+		return s;
 	}
 
 	public static String calculateRFC2104HMAC(String key, String data) throws SignatureException {
