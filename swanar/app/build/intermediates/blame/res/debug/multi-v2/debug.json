@@ -224,28 +224,6 @@
             ]
         },
         {
-            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,400,500,609,693,802,927,1033,1141,1239,1343,1448,1555",
-                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
-                        "endOffsets": "395,495,604,688,797,922,1028,1136,1234,1338,1443,1550,1672"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,264,373,457,566,691,797,905,1003,1107,1212,1319",
-                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
-                        "endOffsets": "159,259,368,452,561,686,792,900,998,1102,1207,1314,1436"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-da_values-da.arsc.flat",
             "map": [
                 {
@@ -263,6 +241,28 @@
                         "startOffsets": "55,158,257,369,452,552,665,774,882,978,1092,1196,1297",
                         "endColumns": "102,98,111,82,99,112,108,107,95,113,103,100,115",
                         "endOffsets": "153,252,364,447,547,660,769,877,973,1087,1191,1292,1408"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,400,500,609,693,802,927,1033,1141,1239,1343,1448,1555",
+                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
+                        "endOffsets": "395,495,604,688,797,922,1028,1136,1234,1338,1443,1550,1672"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,164,264,373,457,566,691,797,905,1003,1107,1212,1319",
+                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
+                        "endOffsets": "159,259,368,452,561,686,792,900,998,1102,1207,1314,1436"
                     }
                 }
             ]
@@ -595,23 +595,23 @@
             ]
         },
         {
-            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-mn-rMN_values-mn-rMN.arsc.flat",
+            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,408,508,621,708,814,926,1035,1139,1236,1344,1445,1548",
-                        "endColumns": "112,99,112,86,105,111,108,103,96,107,100,102,121",
-                        "endOffsets": "403,503,616,703,809,921,1030,1134,1231,1339,1440,1543,1665"
+                        "startOffsets": "291,396,494,606,692,797,912,1023,1126,1225,1336,1438,1545",
+                        "endColumns": "104,97,111,85,104,114,110,102,98,110,101,106,121",
+                        "endOffsets": "391,489,601,687,792,907,1018,1121,1220,1331,1433,1540,1662"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,168,268,381,468,574,686,795,899,996,1104,1205,1308",
-                        "endColumns": "112,99,112,86,105,111,108,103,96,107,100,102,121",
-                        "endOffsets": "163,263,376,463,569,681,790,894,991,1099,1200,1303,1425"
+                        "startOffsets": "55,160,258,370,456,561,676,787,890,989,1100,1202,1309",
+                        "endColumns": "104,97,111,85,104,114,110,102,98,110,101,106,121",
+                        "endOffsets": "155,253,365,451,556,671,782,885,984,1095,1197,1304,1426"
                     }
                 }
             ]
@@ -639,23 +639,23 @@
             ]
         },
         {
-            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
+            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-mn-rMN_values-mn-rMN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,396,494,606,692,797,912,1023,1126,1225,1336,1438,1545",
-                        "endColumns": "104,97,111,85,104,114,110,102,98,110,101,106,121",
-                        "endOffsets": "391,489,601,687,792,907,1018,1121,1220,1331,1433,1540,1662"
+                        "startOffsets": "295,408,508,621,708,814,926,1035,1139,1236,1344,1445,1548",
+                        "endColumns": "112,99,112,86,105,111,108,103,96,107,100,102,121",
+                        "endOffsets": "403,503,616,703,809,921,1030,1134,1231,1339,1440,1543,1665"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,258,370,456,561,676,787,890,989,1100,1202,1309",
-                        "endColumns": "104,97,111,85,104,114,110,102,98,110,101,106,121",
-                        "endOffsets": "155,253,365,451,556,671,782,885,984,1095,1197,1304,1426"
+                        "startOffsets": "55,168,268,381,468,574,686,795,899,996,1104,1205,1308",
+                        "endColumns": "112,99,112,86,105,111,108,103,96,107,100,102,121",
+                        "endOffsets": "163,263,376,463,569,681,790,894,991,1099,1200,1303,1425"
                     }
                 }
             ]
@@ -949,28 +949,6 @@
             ]
         },
         {
-            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-is-rIS_values-is-rIS.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-is-rIS\\values-is-rIS.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "295,395,492,604,689,790,904,1014,1122,1220,1329,1428,1531",
-                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
-                        "endOffsets": "390,487,599,684,785,899,1009,1117,1215,1324,1423,1526,1644"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,252,364,449,550,664,774,882,980,1089,1188,1291",
-                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
-                        "endOffsets": "150,247,359,444,545,659,769,877,975,1084,1183,1286,1404"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP_values-ne-rNP.arsc.flat",
             "map": [
                 {
@@ -988,6 +966,28 @@
                         "startOffsets": "55,160,264,372,463,570,697,807,923,1026,1141,1243,1358",
                         "endColumns": "104,103,107,90,106,126,109,115,102,114,101,114,130",
                         "endOffsets": "155,259,367,458,565,692,802,918,1021,1136,1238,1353,1484"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\res\\merged\\debug\\values-is-rIS_values-is-rIS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-is-rIS\\values-is-rIS.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,395,492,604,689,790,904,1014,1122,1220,1329,1428,1531",
+                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
+                        "endOffsets": "390,487,599,684,785,899,1009,1117,1215,1324,1423,1526,1644"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,252,364,449,550,664,774,882,980,1089,1188,1291",
+                        "endColumns": "99,96,111,84,100,113,109,107,97,108,98,102,117",
+                        "endOffsets": "150,247,359,444,545,659,769,877,975,1084,1183,1286,1404"
                     }
                 }
             ]

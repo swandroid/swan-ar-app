@@ -79,7 +79,7 @@ public class ActivityLauncher extends ListActivity
 
 if (!swanIsRunning)
 {
-   // registerSWANSensor();
+    registerSWANSensor();
 }
 
 
@@ -130,7 +130,9 @@ if (!swanIsRunning)
             ExpressionManager.registerValueExpression(this, id, (ValueExpression) ExpressionFactory.parse(myExpression), new ValueExpressionListener() {
                 @Override
                 public void onNewValues(String id, TimestampedValue[] newValues) {
-                    Log.d(id,String.valueOf(newValues[0]));
+                    if (newValues.length > 0) {
+                        Log.d(id, String.valueOf(newValues[0]));
+                    }
 
                 }
             });

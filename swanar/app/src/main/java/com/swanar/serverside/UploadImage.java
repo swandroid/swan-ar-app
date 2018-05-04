@@ -2,11 +2,14 @@ package com.swanar.serverside;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.hardware.Camera;
+import android.media.ExifInterface;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,12 +18,16 @@ import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.text.InputType;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
 import com.R;
+import com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher;
 
 import android.util.Base64;
 import org.apache.commons.io.FileUtils;
@@ -39,11 +46,13 @@ import org.json.JSONObject;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.nio.ByteBuffer;
 import java.security.Policy;
 import java.util.Date;
 import java.util.List;
@@ -55,13 +64,14 @@ public class UploadImage extends Activity{
     private String secretKey = "a3bfb8e2849bcef4bbd4d4e904035822c66d6fe1";
 
     private String url = "https://vws.vuforia.com";
-    private String targetName = "iiiimag";
+    private String targetName = "";
 ImageView imageView0;
     protected static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 0;
 
     String str = ""; //image uri path
 
 Uri imageUri;
+Uri compressedUri;
 
 
     @Override
@@ -70,7 +80,7 @@ Uri imageUri;
         setContentView(R.layout.uploadimage);
         imageView0 = (ImageView) findViewById(R.id.imageView0);
 
-       // popUpInput();
+      //  popUpInput();
 
 
 
@@ -87,36 +97,7 @@ Uri imageUri;
 
 
     }
-public void popUpInput (){
 
-
-    AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    builder.setTitle("Title");
-
-// Set up the input
-    final EditText input = new EditText(this);
-// Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
-    input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-    builder.setView(input);
-
-// Set up the buttons
-    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-        @Override
-        public void onClick(DialogInterface dialog, int which) {
-            targetName = input.getText().toString();
-        }
-    });
-    builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-        @Override
-        public void onClick(DialogInterface dialog, int which) {
-            dialog.cancel();
-        }
-    });
-
-    builder.show();
-
-
-}
 
     private void setHeaders(HttpUriRequest request) {
         SignatureBuilder sb = new SignatureBuilder();
@@ -131,6 +112,9 @@ public void popUpInput (){
 
     void sendToServer () throws URISyntaxException, IOException, JSONException{
 
+
+
+
         HttpPost postRequest = new HttpPost();
         HttpClient client = new DefaultHttpClient();
 
@@ -139,32 +123,51 @@ public void popUpInput (){
         JSONObject requestBody = new JSONObject();
 
 
-        File imageFile = new File(imageUri.getPath());
+    //    File imageFile = new File(imageUri.getPath());
 
 
-     /*  Bitmap bmp = BitmapFactory.decodeFile(imageUri.getPath());
-        ByteArrayOutputStream byteArrayOS = new ByteArrayOutputStream();
-        bmp.compress(Bitmap.CompressFormat.PNG, 10, byteArrayOS);
 
-        byte[] byteArray = byteArrayOS.toByteArray();*/
-
-      /*  ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        bmp.compress(Bitmap.CompressFormat.JPEG, 10, bos);
-        InputStream in = new ByteArrayInputStream(bos.toByteArray());
-        ContentBody foto = new InputStreamBody(in, "image/jpeg", "filename");*/
-
-      //  FileUtils.writeByteArrayToFile(new File(imageUri.getPath()), byteArray);
+Bitmap bmpp = get_Reduce_bitmap_Picture (imageUri.getPath());
 
 
-       // File f = new File(imageUri.getPath());
-        long size = imageFile.length();
 
-        size = size;
 
-        //int flags =  Base64.NO_WRAP | Base64.URL_SAFE;
+         compressedUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory() + "/swanARpics","fname_" +
+                String.valueOf(System.currentTimeMillis()) + ".jpg"));
 
-        byte[] image = FileUtils.readFileToByteArray(imageFile);
-      //  image = byteArray;
+
+
+
+
+
+        FileOutputStream out = null;
+        try {
+            out = new FileOutputStream(compressedUri.getPath());
+            bmpp.compress(Bitmap.CompressFormat.JPEG, 100, out); // bmp is your Bitmap instance
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (out != null) {
+                    out.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        File cFile = new File(compressedUri.getPath());
+
+
+
+
+
+
+        byte[] image = FileUtils.readFileToByteArray(cFile);
+
+
+
         requestBody.put("name", targetName); // Mandatory
         requestBody.put("width", 0.25); // Mandatory
         requestBody.put("image", encodeToString(image)); // Mandatory
@@ -194,6 +197,62 @@ public void popUpInput (){
 
 
 
+    public Bitmap get_Reduce_bitmap_Picture(String imagePath) {
+
+        int ample_size = 4;
+        // change ample_size to 32 or any power of 2 to increase or decrease bitmap size of image
+
+
+        Bitmap bitmap = null;
+        BitmapFactory.Options bitoption = new BitmapFactory.Options();
+        bitoption.inSampleSize = ample_size;
+
+        Bitmap bitmapPhoto = BitmapFactory.decodeFile(imagePath, bitoption);
+
+        ExifInterface exif = null;
+        try {
+            exif = new ExifInterface(imagePath);
+        } catch (IOException e) {
+            // Auto-generated catch block
+            e.printStackTrace();
+        }
+        int orientation = exif
+                .getAttributeInt(ExifInterface.TAG_ORIENTATION, 1);
+        Matrix matrix = new Matrix();
+
+        if ((orientation == 3)) {
+            matrix.postRotate(180);
+            bitmap = Bitmap.createBitmap(bitmapPhoto, 0, 0,
+                    bitmapPhoto.getWidth(), bitmapPhoto.getHeight(), matrix,
+                    true);
+
+        } else if (orientation == 6) {
+            matrix.postRotate(90);
+            bitmap = Bitmap.createBitmap(bitmapPhoto, 0, 0,
+                    bitmapPhoto.getWidth(), bitmapPhoto.getHeight(), matrix,
+                    true);
+
+        } else if (orientation == 8) {
+            matrix.postRotate(270);
+            bitmap = Bitmap.createBitmap(bitmapPhoto, 0, 0,
+                    bitmapPhoto.getWidth(), bitmapPhoto.getHeight(), matrix,
+                    true);
+
+        } else {
+            matrix.postRotate(0);
+            bitmap = Bitmap.createBitmap(bitmapPhoto, 0, 0,
+                    bitmapPhoto.getWidth(), bitmapPhoto.getHeight(), matrix,
+                    true);
+
+        }
+
+        return bitmap;
+
+    }
+
+
+
+
 public String encodeToString (byte [] byteArray) throws UnsupportedEncodingException
 {
     String hash = Base64.encodeToString(byteArray, Base64.DEFAULT);
@@ -204,7 +263,7 @@ public String encodeToString (byte [] byteArray) throws UnsupportedEncodingExcep
     void callCamera ()
     {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        imageUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),"fname_" +
+        imageUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory() + "/swanARpics","fname_" +
                 String.valueOf(System.currentTimeMillis()) + ".jpg"));
 
 
@@ -215,6 +274,8 @@ public String encodeToString (byte [] byteArray) throws UnsupportedEncodingExcep
 
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+
         if (resultCode == RESULT_OK) {
             if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
 
@@ -241,16 +302,41 @@ public String encodeToString (byte [] byteArray) throws UnsupportedEncodingExcep
 
 
 
-        try {
 
 
-            sendToServer();
+        final EditText input = (EditText)  findViewById(R.id.editText);
 
-        }catch (URISyntaxException ex) {
-        } catch (IOException ex) {
-        }
-        catch (JSONException ex) {
-        }
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+
+
+                try {
+
+                    targetName = input.getText().toString();
+
+                    sendToServer();
+
+                    Context ctx = v.getContext();
+                    Intent intent = new Intent(ctx, ActivityLauncher.class);
+
+
+                    ctx.startActivity(intent);
+
+
+                }catch (URISyntaxException ex) {
+                } catch (IOException ex) {
+                }
+                catch (JSONException ex) {
+                }
+
+
+            }
+        });
+
+
 
     }
 
