@@ -25,6 +25,8 @@ import android.widget.ListView;
 
 import com.R;
 import com.swanar.serverside.UploadImage;
+import com.vuforia.samples.VuforiaSamples.app.CloudRecognition.CloudReco;
+import com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets;
 
 import java.util.List;
 
@@ -157,17 +159,22 @@ if (!swanIsRunning)
     public void onListItemClick(ListView l, View v, int position, long id)
     {
         
-        Intent intent = new Intent(this, AboutScreen.class);
-        intent.putExtra("ABOUT_TEXT_TITLE", mActivities[position]);
+       /* Intent intent = new Intent(this, AboutScreen.class);
+        intent.putExtra("ABOUT_TEXT_TITLE", mActivities[position]);*/
+        Context ctx = v.getContext();
         
         switch (position)
         {
             case 0:
-                intent.putExtra("ACTIVITY_TO_LAUNCH",
+                /*intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.ImageTargets.ImageTargets");
-                intent.putExtra("ABOUT_TEXT", "");
+                intent.putExtra("ABOUT_TEXT", "");*/
+                Intent intent = new Intent(ctx, ImageTargets.class);
+
+
+                ctx.startActivity(intent);
                 break;
-            case 6:
+           /* case 6:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                         "app.VuMark.VuMark");
                 intent.putExtra("ABOUT_TEXT", "VuMark/VM_about.html");
@@ -192,20 +199,24 @@ if (!swanIsRunning)
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.ObjectRecognition.ObjectTargets");
                 intent.putExtra("ABOUT_TEXT", "ObjectRecognition/OR_about.html");
-                break;
+                break;*/
             case 1:
-                intent.putExtra("ACTIVITY_TO_LAUNCH",
+                /*intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.CloudRecognition.CloudReco");
-                intent.putExtra("ABOUT_TEXT", "CloudReco/CR_about.html");
+                intent.putExtra("ABOUT_TEXT", "CloudReco/CR_about.html");*/
+                 intent = new Intent(ctx, CloudReco.class);
+
+
+                ctx.startActivity(intent);
                 break;
-            case 7:
+            /*case 7:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.VirtualButtons.VirtualButtons");
                 intent.putExtra("ABOUT_TEXT", "VirtualButtons/VB_about.html");
-                break;
+                break;*/
         }
         
-        startActivity(intent);
+       // startActivity(intent);
         
     }
 }

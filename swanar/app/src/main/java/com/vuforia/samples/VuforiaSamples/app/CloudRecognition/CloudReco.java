@@ -12,9 +12,11 @@ package com.vuforia.samples.VuforiaSamples.app.CloudRecognition;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -48,6 +50,8 @@ import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenu;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuGroup;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuInterface;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.Vector;
 
 
@@ -116,7 +120,7 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     private double mLastErrorTime;
 
     private boolean mIsDroidDevice = false;
-    
+    String identite;
     
     // Called when the activity first starts or needs to be recreated after
     // resuming the application or a configuration change.
@@ -703,7 +707,23 @@ public class CloudReco extends Activity implements SampleApplicationControl,
             if (finder.getResultCount() > 0)
             {
                 TargetSearchResult result = finder.getResult(0);
-                
+                identite = result.getTargetName();
+
+
+
+                try {
+                    String escapedQuery = URLEncoder.encode(identite, "UTF-8"); ////open chrome
+                    Uri uri = Uri.parse("http://www.google.com/#q=" + escapedQuery);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                }
+                catch (UnsupportedEncodingException u)
+                {
+
+                }
+
+
+
                 // Check if this target is suitable for tracking:
                 if (result.getTrackingRating() > 0)
                 {
