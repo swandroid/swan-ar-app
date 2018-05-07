@@ -19,36 +19,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/swanar/serverside/UploadImage.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/swanar/serverside/UploadImage.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/swanar/serverside/UploadImage.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/swanar/serverside/UploadImage.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/swanar-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/swanar-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,98 +47,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UploadImage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UploadImage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="220" column="37" lean-forward="false" selection-start-line="220" selection-start-column="37" selection-end-line="220" selection-end-column="37" />
+            <state relative-caret-position="-2448">
+              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityLauncher.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="206" column="51" lean-forward="false" selection-start-line="206" selection-start-column="51" selection-end-line="206" selection-end-column="51" />
-              <folding>
-                <element signature="e#3896#4204#0" expanded="true" />
-                <element signature="e#4203#4204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/AboutScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudReco.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="709" column="50" lean-forward="false" selection-start-line="709" selection-start-column="50" selection-end-line="709" selection-end-column="50" />
-              <folding>
-                <element signature="e#6375#6794#0" expanded="true" />
-                <element signature="e#6793#6794#0" expanded="true" />
-                <element signature="e#11805#11863#0" expanded="true" />
-                <element signature="e#11936#11991#0" expanded="true" />
-                <element signature="e#12068#12127#0" expanded="true" />
-                <element signature="e#12204#12263#0" expanded="true" />
-                <element signature="e#12329#12377#0" expanded="true" />
-                <element signature="e#12455#12515#0" expanded="true" />
-                <element signature="e#12586#12639#0" expanded="true" />
-                <element signature="e#12712#12767#0" expanded="true" />
-                <element signature="e#12811#12856#0" expanded="true" />
-                <element signature="e#13067#13126#0" expanded="true" />
-                <element signature="e#13199#13255#0" expanded="true" />
-                <element signature="e#13332#13392#0" expanded="true" />
-                <element signature="e#13469#13529#0" expanded="true" />
-                <element signature="e#13595#13644#0" expanded="true" />
-                <element signature="e#13722#13783#0" expanded="true" />
-                <element signature="e#13854#13908#0" expanded="true" />
-                <element signature="e#13981#14037#0" expanded="true" />
-                <element signature="e#14081#14127#0" expanded="true" />
-                <element signature="e#14535#16021#0" expanded="true" />
-                <element signature="e#15276#15305#0" expanded="true" />
-                <element signature="e#15331#15892#0" expanded="true" />
-                <element signature="e#15891#15892#0" expanded="true" />
-                <element signature="e#16020#16021#0" expanded="true" />
-                <element signature="e#16237#17324#0" expanded="true" />
-                <element signature="e#16724#16754#0" expanded="true" />
-                <element signature="e#16869#16898#0" expanded="true" />
-                <element signature="e#16924#17195#0" expanded="true" />
-                <element signature="e#17194#17195#0" expanded="true" />
-                <element signature="e#17323#17324#0" expanded="true" />
-                <element signature="e#27908#27937#0" expanded="true" />
-                <element signature="e#28035#28077#0" expanded="true" />
-                <element signature="e#30472#30674#0" expanded="true" />
-                <element signature="e#30673#30674#0" expanded="true" />
-                <element signature="e#30745#30933#0" expanded="true" />
-                <element signature="e#30932#30933#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -173,6 +66,7 @@
     <findStrings>
       <find>came</find>
       <find>popUpInput</find>
+      <find>get_Reduce_bitmap_Picture</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2217,10 +2111,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/SignatureBuilder.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/uploadimage.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/AboutScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java" />
       </list>
     </option>
   </component>
@@ -2245,9 +2139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2257,62 +2149,14 @@
             </path>
             <path>
               <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="ActivityList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -2503,7 +2347,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5121951" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.51797384" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2513,8 +2357,8 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4878049" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19782609" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48202613" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19782609" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2543,17 +2387,61 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="113" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11050">
+          <caret line="709" column="50" lean-forward="false" selection-start-line="709" selection-start-column="50" selection-end-line="709" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/AboutScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3553">
           <caret line="264" column="68" lean-forward="false" selection-start-line="264" selection-start-column="8" selection-end-line="264" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2562,10 +2450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#3896#4204#0" expanded="true" />
-            <element signature="e#4203#4204#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2573,44 +2458,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11118">
           <caret line="709" column="0" lean-forward="false" selection-start-line="709" selection-start-column="0" selection-end-line="709" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6375#6794#0" expanded="true" />
-            <element signature="e#6793#6794#0" expanded="true" />
-            <element signature="e#11805#11863#0" expanded="true" />
-            <element signature="e#11936#11991#0" expanded="true" />
-            <element signature="e#12068#12127#0" expanded="true" />
-            <element signature="e#12204#12263#0" expanded="true" />
-            <element signature="e#12329#12377#0" expanded="true" />
-            <element signature="e#12455#12515#0" expanded="true" />
-            <element signature="e#12586#12639#0" expanded="true" />
-            <element signature="e#12712#12767#0" expanded="true" />
-            <element signature="e#12811#12856#0" expanded="true" />
-            <element signature="e#13067#13126#0" expanded="true" />
-            <element signature="e#13199#13255#0" expanded="true" />
-            <element signature="e#13332#13392#0" expanded="true" />
-            <element signature="e#13469#13529#0" expanded="true" />
-            <element signature="e#13595#13644#0" expanded="true" />
-            <element signature="e#13722#13783#0" expanded="true" />
-            <element signature="e#13854#13908#0" expanded="true" />
-            <element signature="e#13981#14037#0" expanded="true" />
-            <element signature="e#14081#14127#0" expanded="true" />
-            <element signature="e#14535#16021#0" expanded="true" />
-            <element signature="e#15276#15305#0" expanded="true" />
-            <element signature="e#15331#15892#0" expanded="true" />
-            <element signature="e#15891#15892#0" expanded="true" />
-            <element signature="e#16020#16021#0" expanded="true" />
-            <element signature="e#16237#17324#0" expanded="true" />
-            <element signature="e#16724#16754#0" expanded="true" />
-            <element signature="e#16869#16898#0" expanded="true" />
-            <element signature="e#16924#17195#0" expanded="true" />
-            <element signature="e#17194#17195#0" expanded="true" />
-            <element signature="e#17323#17324#0" expanded="true" />
-            <element signature="e#27908#27937#0" expanded="true" />
-            <element signature="e#28035#28077#0" expanded="true" />
-            <element signature="e#30472#30674#0" expanded="true" />
-            <element signature="e#30673#30674#0" expanded="true" />
-            <element signature="e#30745#30933#0" expanded="true" />
-            <element signature="e#30932#30933#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2621,6 +2479,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2631,6 +2490,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2641,6 +2501,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2651,16 +2512,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2686,6 +2538,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2728,13 +2581,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/uploadimage.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/interdroid.swancore.swanmain/swaninterface/1.0.3/3a93b8052f687a734abee487616659245e91b5a4/swaninterface-1.0.3-sources.jar!/interdroid/swancore/swanmain/ValueExpressionListener.java">
@@ -2744,88 +2597,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="11050">
           <caret line="709" column="50" lean-forward="false" selection-start-line="709" selection-start-column="50" selection-end-line="709" selection-end-column="50" />
-          <folding>
-            <element signature="e#6375#6794#0" expanded="true" />
-            <element signature="e#6793#6794#0" expanded="true" />
-            <element signature="e#11805#11863#0" expanded="true" />
-            <element signature="e#11936#11991#0" expanded="true" />
-            <element signature="e#12068#12127#0" expanded="true" />
-            <element signature="e#12204#12263#0" expanded="true" />
-            <element signature="e#12329#12377#0" expanded="true" />
-            <element signature="e#12455#12515#0" expanded="true" />
-            <element signature="e#12586#12639#0" expanded="true" />
-            <element signature="e#12712#12767#0" expanded="true" />
-            <element signature="e#12811#12856#0" expanded="true" />
-            <element signature="e#13067#13126#0" expanded="true" />
-            <element signature="e#13199#13255#0" expanded="true" />
-            <element signature="e#13332#13392#0" expanded="true" />
-            <element signature="e#13469#13529#0" expanded="true" />
-            <element signature="e#13595#13644#0" expanded="true" />
-            <element signature="e#13722#13783#0" expanded="true" />
-            <element signature="e#13854#13908#0" expanded="true" />
-            <element signature="e#13981#14037#0" expanded="true" />
-            <element signature="e#14081#14127#0" expanded="true" />
-            <element signature="e#14535#16021#0" expanded="true" />
-            <element signature="e#15276#15305#0" expanded="true" />
-            <element signature="e#15331#15892#0" expanded="true" />
-            <element signature="e#15891#15892#0" expanded="true" />
-            <element signature="e#16020#16021#0" expanded="true" />
-            <element signature="e#16237#17324#0" expanded="true" />
-            <element signature="e#16724#16754#0" expanded="true" />
-            <element signature="e#16869#16898#0" expanded="true" />
-            <element signature="e#16924#17195#0" expanded="true" />
-            <element signature="e#17194#17195#0" expanded="true" />
-            <element signature="e#17323#17324#0" expanded="true" />
-            <element signature="e#27908#27937#0" expanded="true" />
-            <element signature="e#28035#28077#0" expanded="true" />
-            <element signature="e#30472#30674#0" expanded="true" />
-            <element signature="e#30673#30674#0" expanded="true" />
-            <element signature="e#30745#30933#0" expanded="true" />
-            <element signature="e#30932#30933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="220" column="37" lean-forward="false" selection-start-line="220" selection-start-column="37" selection-end-line="220" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/AboutScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
+        <state relative-caret-position="391">
           <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="151" column="49" lean-forward="false" selection-start-line="151" selection-start-column="49" selection-end-line="151" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="206" column="51" lean-forward="false" selection-start-line="206" selection-start-column="51" selection-end-line="206" selection-end-column="51" />
+        <state relative-caret-position="452">
+          <caret line="186" column="13" lean-forward="false" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
-            <element signature="e#3896#4204#0" expanded="true" />
-            <element signature="e#4203#4204#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#get_Reduce_bitmap_Picture#0;class#UploadImage#0" expanded="false" />
           </folding>
         </state>
       </provider>

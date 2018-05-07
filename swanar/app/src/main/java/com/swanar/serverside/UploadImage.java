@@ -126,8 +126,13 @@ Uri compressedUri;
     //    File imageFile = new File(imageUri.getPath());
 
 
+        BitmapFactory.Options bitoption = new BitmapFactory.Options();
+        bitoption.inSampleSize = 4;
 
-Bitmap bmpp = get_Reduce_bitmap_Picture (imageUri.getPath());
+        Bitmap bmpp = BitmapFactory.decodeFile(imageUri.getPath(), bitoption);
+
+
+//Bitmap bmpp = get_Reduce_bitmap_Picture (imageUri.getPath());
 
 
 
@@ -216,6 +221,9 @@ Bitmap bmpp = get_Reduce_bitmap_Picture (imageUri.getPath());
             // Auto-generated catch block
             e.printStackTrace();
         }
+
+
+
         int orientation = exif
                 .getAttributeInt(ExifInterface.TAG_ORIENTATION, 1);
         Matrix matrix = new Matrix();
