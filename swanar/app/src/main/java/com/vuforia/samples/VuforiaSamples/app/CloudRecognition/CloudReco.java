@@ -753,7 +753,7 @@ if (!thread1.checkForGoodLight() && (compteur == 10 || compteur % 100 == 0))
         }
 
 compteur++;
-        Log.d("hahaha", String.valueOf(compteur) );
+        Log.d("Light sensor", String.valueOf(compteur) );
 
         
         // Show a message if we encountered an error:
