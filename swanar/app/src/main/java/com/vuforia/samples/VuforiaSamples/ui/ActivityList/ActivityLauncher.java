@@ -27,6 +27,7 @@ import com.R;
 import com.swanar.serverside.UploadImage;
 import com.vuforia.samples.VuforiaSamples.app.CloudRecognition.CloudReco;
 import com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets;
+import com.vuforia.samples.VuforiaSamples.app.SwanThread;
 
 import java.util.List;
 
@@ -50,6 +51,7 @@ public class ActivityLauncher extends ListActivity
     Button button0;
     String id = "thomas";
     boolean swanIsRunning = false;
+    SwanThread thread1;
 
     /* private String mActivities[] = { "Image Targets", "VuMark", "Cylinder Targets",
             "Multi Targets", "User Defined Targets", "Object Reco", "Cloud Reco",
@@ -71,20 +73,9 @@ public class ActivityLauncher extends ListActivity
         setListAdapter(adapter);
 
 
-        ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        List<ActivityManager.RunningAppProcessInfo> runningProcInfo = activityManager .getRunningAppProcesses();
-        for(int i = 0; i < runningProcInfo.size(); i++){
-            if(runningProcInfo.get(i).processName.equals("interdroid.swan")) {
-                swanIsRunning = true;
-            }
-        }
-
-if (!swanIsRunning)
-{
-    registerSWANSensor();
-}
 
 
+//startSwan();
 
 
         button0 = (Button) findViewById(R.id.button0);
@@ -101,14 +92,39 @@ if (!swanIsRunning)
     }
 
 
+protected void startSwan()
+{
 
+    ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+    List<ActivityManager.RunningAppProcessInfo> runningProcInfo = activityManager .getRunningAppProcesses();
+    for(int i = 0; i < runningProcInfo.size(); i++){
+        if(runningProcInfo.get(i).processName.equals("interdroid.swan")) {
+            swanIsRunning = true;
+        }
+    }
+    if (!swanIsRunning)
+    {
+         thread1 = new SwanThread(id,this);
+
+    }
+}
 
 
     @Override
     protected void onPause()
     {
         super.onPause();
-        unregisterSWANSensor();
+       // unregisterSWANSensor();
+        //thread1.unregisterSWANSensor();
+
+
+        }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+       //thread1.registerSWANSensor();
 
 
     }
@@ -118,41 +134,15 @@ if (!swanIsRunning)
     protected void onDestroy()
     {
         super.onDestroy();
-        unregisterSWANSensor();
+        //thread1.unregisterSWANSensor();
 
 
     }
 
-    private void registerSWANSensor(){
-
-        String myExpression = "self@light:lux{ANY,0}";
-        //  String myExpression = "self@light:lux{ANY,0}";
-
-        try {
-            ExpressionManager.registerValueExpression(this, id, (ValueExpression) ExpressionFactory.parse(myExpression), new ValueExpressionListener() {
-                @Override
-                public void onNewValues(String id, TimestampedValue[] newValues) {
-                    if (newValues.length > 0) {
-                        Log.d(id, String.valueOf(newValues[0]));
-                    }
-
-                }
-            });
-        } catch (SwanException e) {
-            e.printStackTrace();
-        } catch (ExpressionParseException e) {
-            e.printStackTrace();
-        }
-
-    }
 
 
-    private void unregisterSWANSensor(){
-
-        ExpressionManager.unregisterExpression(this, String.valueOf(id));
 
 
-    }
 
     
     @Override

@@ -1,4 +1,4 @@
-#Mon May 07 21:44:44 CEST 2018
+#Fri May 18 18:24:38 CEST 2018
 base.0=F\:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

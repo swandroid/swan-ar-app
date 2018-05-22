@@ -10,7 +10,9 @@ countries.
 package com.vuforia.samples.VuforiaSamples.app.CloudRecognition;
 
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -19,6 +21,8 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.StrictMode;
+import android.support.annotation.IntegerRes;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
@@ -29,6 +33,7 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.vuforia.CameraDevice;
 import com.vuforia.ObjectTracker;
@@ -46,13 +51,18 @@ import com.vuforia.samples.SampleApplication.utils.LoadingDialogHandler;
 import com.vuforia.samples.SampleApplication.utils.SampleApplicationGLView;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 import com.R;
+import com.vuforia.samples.VuforiaSamples.app.SwanThread;
+import com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenu;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuGroup;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuInterface;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.List;
 import java.util.Vector;
+
+
 
 
 // The main activity for the CloudReco sample. 
@@ -60,6 +70,9 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     SampleAppMenuInterface
 {
     private static final String LOGTAG = "CloudReco";
+    private final String id = "thomas";
+    boolean swanIsRunning = false;
+    int compteur = 0;
 
     private SampleApplicationSession vuforiaAppSession;
     
@@ -121,7 +134,10 @@ public class CloudReco extends Activity implements SampleApplicationControl,
 
     private boolean mIsDroidDevice = false;
     String identite;
-    
+
+    SwanThread thread1;
+
+
     // Called when the activity first starts or needs to be recreated after
     // resuming the application or a configuration change.
     @Override
@@ -145,7 +161,11 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         
         mIsDroidDevice = android.os.Build.MODEL.toLowerCase().startsWith(
             "droid");
-        
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+        StrictMode.setThreadPolicy(policy);
+       startSwan();
+
     }
     
     // Process Single Tap event to trigger autofocus
@@ -197,7 +217,14 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         mTextures.add(Texture.loadTextureFromApk("TextureTeapotRed.png",
             getAssets()));
     }
-    
+
+
+
+
+
+
+
+
     
     // Called when the activity will start interacting with the user.
     @Override
@@ -205,6 +232,8 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     {
         Log.d(LOGTAG, "onResume");
         super.onResume();
+thread1.registerSWANSensor();
+        //registerSWANSensor();
 
         showProgressIndicator(true);
         
@@ -228,15 +257,37 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         
         vuforiaAppSession.onConfigurationChanged();
     }
-    
-    
+
+
+    protected void startSwan()
+    {
+
+        ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        List<ActivityManager.RunningAppProcessInfo> runningProcInfo = activityManager .getRunningAppProcesses();
+        for(int i = 0; i < runningProcInfo.size(); i++){
+            if(runningProcInfo.get(i).processName.equals("interdroid.swan")) {
+                swanIsRunning = true;
+            }
+        }
+        if (!swanIsRunning)
+        {
+            thread1 = new SwanThread(id,this);
+
+        }
+    }
+
+
+
+
     // Called when the system is about to start resuming a previous activity.
     @Override
     protected void onPause()
     {
         Log.d(LOGTAG, "onPause");
         super.onPause();
-        
+
+        thread1.unregisterSWANSensor();
+
         try
         {
             vuforiaAppSession.pauseAR();
@@ -260,7 +311,8 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     {
         Log.d(LOGTAG, "onDestroy");
         super.onDestroy();
-        
+        thread1.unregisterSWANSensor();
+
         try
         {
             vuforiaAppSession.stopAR();
@@ -271,6 +323,8 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         
         System.gc();
     }
+
+
     
     
     public void deinitCloudReco()
@@ -690,6 +744,17 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         
         // Check if there are new results available:
         final int statusCode = finder.updateSearchResults();
+
+if (!thread1.checkForGoodLight() && (compteur == 10 || compteur % 100 == 0))
+        {
+
+            showToast("Warning, lighting may be insufficient");
+
+        }
+
+compteur++;
+        Log.d("hahaha", String.valueOf(compteur) );
+
         
         // Show a message if we encountered an error:
         if (statusCode < 0)
@@ -708,9 +773,7 @@ public class CloudReco extends Activity implements SampleApplicationControl,
             {
                 TargetSearchResult result = finder.getResult(0);
                 identite = result.getTargetName();
-
-
-
+                //showToast(identite);
                 try {
                     String escapedQuery = URLEncoder.encode(identite, "UTF-8"); ////open chrome
                     Uri uri = Uri.parse("http://www.google.com/#q=" + escapedQuery);
@@ -929,6 +992,11 @@ public class CloudReco extends Activity implements SampleApplicationControl,
                 scanLine.clearAnimation();
             }
         });
+    }
+
+    private void showToast(String text)
+    {
+        Toast.makeText(CloudReco.this, text, Toast.LENGTH_LONG).show();
     }
 
 }
