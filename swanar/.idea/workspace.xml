@@ -19,12 +19,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$3.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco$GestureListener.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/swanar-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/swanar-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,49 +67,67 @@
       <file leaf-file-name="ActivityLauncher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="-1465">
               <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageTargets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/ImageTargets/ImageTargets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14161">
-              <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
-              <folding>
-                <element signature="e#28180#28181#0" expanded="true" />
-                <element signature="e#28249#28250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudReco.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudReco.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="737" column="34" lean-forward="false" selection-start-line="737" selection-start-column="34" selection-end-line="737" selection-end-column="34" />
+            <state relative-caret-position="193">
+              <caret line="658" column="54" lean-forward="false" selection-start-line="658" selection-start-column="53" selection-end-line="658" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#7072#7491#0" expanded="true" />
+                <element signature="e#7490#7491#0" expanded="true" />
                 <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#13363#13421#0" expanded="true" />
+                <element signature="e#13494#13549#0" expanded="true" />
+                <element signature="e#13626#13685#0" expanded="true" />
+                <element signature="e#13762#13821#0" expanded="true" />
+                <element signature="e#13887#13935#0" expanded="true" />
+                <element signature="e#14013#14073#0" expanded="true" />
+                <element signature="e#14144#14197#0" expanded="true" />
+                <element signature="e#14270#14325#0" expanded="true" />
+                <element signature="e#14369#14414#0" expanded="true" />
                 <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#14625#14684#0" expanded="true" />
+                <element signature="e#14757#14813#0" expanded="true" />
+                <element signature="e#14890#14950#0" expanded="true" />
+                <element signature="e#15027#15087#0" expanded="true" />
+                <element signature="e#15153#15202#0" expanded="true" />
+                <element signature="e#15280#15341#0" expanded="true" />
+                <element signature="e#15412#15466#0" expanded="true" />
+                <element signature="e#15539#15595#0" expanded="true" />
+                <element signature="e#15639#15685#0" expanded="true" />
                 <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#16093#17579#0" expanded="true" />
+                <element signature="e#16834#16863#0" expanded="true" />
+                <element signature="e#16889#17450#0" expanded="true" />
+                <element signature="e#17449#17450#0" expanded="true" />
+                <element signature="e#17578#17579#0" expanded="true" />
                 <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#17795#18882#0" expanded="true" />
+                <element signature="e#18282#18312#0" expanded="true" />
+                <element signature="e#18427#18456#0" expanded="true" />
+                <element signature="e#18482#18753#0" expanded="true" />
+                <element signature="e#18752#18753#0" expanded="true" />
+                <element signature="e#18881#18882#0" expanded="true" />
                 <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-                <element signature="e#21439#21440#0" expanded="true" />
-                <element signature="e#21466#21467#0" expanded="true" />
+                <element signature="e#21706#21707#0" expanded="true" />
+                <element signature="e#21733#21734#0" expanded="true" />
                 <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -100,20 +135,30 @@
                 <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#29740#29769#0" expanded="true" />
+                <element signature="e#29867#29909#0" expanded="true" />
                 <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
                 <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#32304#32506#0" expanded="true" />
+                <element signature="e#32505#32506#0" expanded="true" />
                 <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+                <element signature="e#32577#32765#0" expanded="true" />
+                <element signature="e#32764#32765#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwanThread.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SwanThread.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2370#2760#0" expanded="true" />
+                <element signature="e#2759#2760#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +181,9 @@
       <find>resume</find>
       <find>register</find>
       <find>swan</find>
+      <find>counter</find>
+      <find>lightThread</find>
+      <find>idLocation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2184,8 +2232,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/ImageTargets/ImageTargets.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java" />
       </list>
     </option>
   </component>
@@ -2210,10 +2258,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="VuforiaSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="ActivityList" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="swanar" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -2222,9 +2318,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2410,28 +2507,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5586381" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5702614" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13804348" sideWeight="0.5170576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347826" sideWeight="0.51492536" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38043478" sideWeight="0.90351814" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38043478" sideWeight="0.8997868" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4413619" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13804348" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.42973855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13804348" sideWeight="0.47867805" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3347826" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347826" sideWeight="0.48507464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2447,7 +2545,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="217" />
+      <option name="time" value="228" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2457,8 +2555,8 @@
         <state relative-caret-position="14161">
           <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
           <folding>
-            <element signature="e#28180#28181#0" expanded="true" />
-            <element signature="e#28249#28250#0" expanded="true" />
+            <element signature="e#28180#28181#0" expanded="false" />
+            <element signature="e#28249#28250#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2467,7 +2565,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2370#2760#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2479,20 +2581,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2500,9 +2633,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2520,8 +2659,8 @@
         <state relative-caret-position="14161">
           <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
           <folding>
-            <element signature="e#28180#28181#0" expanded="true" />
-            <element signature="e#28249#28250#0" expanded="true" />
+            <element signature="e#28180#28181#0" expanded="false" />
+            <element signature="e#28249#28250#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2530,7 +2669,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2370#2760#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2542,20 +2685,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2563,9 +2737,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2583,8 +2763,8 @@
         <state relative-caret-position="14161">
           <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
           <folding>
-            <element signature="e#28180#28181#0" expanded="true" />
-            <element signature="e#28249#28250#0" expanded="true" />
+            <element signature="e#28180#28181#0" expanded="false" />
+            <element signature="e#28249#28250#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2593,7 +2773,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2370#2760#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2605,20 +2789,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2626,9 +2841,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2648,20 +2869,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2669,9 +2921,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2689,8 +2947,8 @@
         <state relative-caret-position="14161">
           <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
           <folding>
-            <element signature="e#28180#28181#0" expanded="true" />
-            <element signature="e#28249#28250#0" expanded="true" />
+            <element signature="e#28180#28181#0" expanded="false" />
+            <element signature="e#28249#28250#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2738,20 +2996,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2759,9 +3048,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2803,20 +3098,51 @@
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -2824,9 +3150,15 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2935,22 +3267,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/interdroid.swancore.swanmain/swaninterface/1.0.3/3a93b8052f687a734abee487616659245e91b5a4/swaninterface-1.0.3-sources.jar!/interdroid/swancore/swanmain/ValueExpressionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="151" column="49" lean-forward="false" selection-start-line="151" selection-start-column="49" selection-end-line="151" selection-end-column="49" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swanar/serverside/UploadImage.java">
@@ -2990,53 +3315,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/ImageTargets/ImageTargets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14161">
+        <state relative-caret-position="711">
           <caret line="902" column="53" lean-forward="false" selection-start-line="902" selection-start-column="53" selection-end-line="902" selection-end-column="53" />
           <folding>
-            <element signature="e#28180#28181#0" expanded="true" />
-            <element signature="e#28249#28250#0" expanded="true" />
+            <element signature="e#28180#28181#0" expanded="false" />
+            <element signature="e#28249#28250#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/ui/ActivityList/ActivityLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="-1465">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/CloudRecognition/CloudReco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="737" column="34" lean-forward="false" selection-start-line="737" selection-start-column="34" selection-end-line="737" selection-end-column="34" />
+        <state relative-caret-position="193">
+          <caret line="658" column="54" lean-forward="false" selection-start-line="658" selection-start-column="53" selection-end-line="658" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#GestureListener#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onSingleTapUp#0;class#GestureListener#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#7072#7491#0" expanded="true" />
+            <element signature="e#7490#7491#0" expanded="true" />
             <element signature="method#onConfigurationChanged#0;class#CloudReco#0" expanded="false" />
             <element signature="method#deinitCloudReco#0;class#CloudReco#0" expanded="false" />
             <element signature="method#startLoadingAnimation#0;class#CloudReco#0" expanded="false" />
             <element signature="method#initApplicationAR#0;class#CloudReco#0" expanded="false" />
             <element signature="method#getStatusDescString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#13363#13421#0" expanded="true" />
+            <element signature="e#13494#13549#0" expanded="true" />
+            <element signature="e#13626#13685#0" expanded="true" />
+            <element signature="e#13762#13821#0" expanded="true" />
+            <element signature="e#13887#13935#0" expanded="true" />
+            <element signature="e#14013#14073#0" expanded="true" />
+            <element signature="e#14144#14197#0" expanded="true" />
+            <element signature="e#14270#14325#0" expanded="true" />
+            <element signature="e#14369#14414#0" expanded="true" />
             <element signature="method#getStatusTitleString#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#14625#14684#0" expanded="true" />
+            <element signature="e#14757#14813#0" expanded="true" />
+            <element signature="e#14890#14950#0" expanded="true" />
+            <element signature="e#15027#15087#0" expanded="true" />
+            <element signature="e#15153#15202#0" expanded="true" />
+            <element signature="e#15280#15341#0" expanded="true" />
+            <element signature="e#15412#15466#0" expanded="true" />
+            <element signature="e#15539#15595#0" expanded="true" />
+            <element signature="e#15639#15685#0" expanded="true" />
             <element signature="method#showErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#16093#17579#0" expanded="true" />
+            <element signature="e#16834#16863#0" expanded="true" />
+            <element signature="e#16889#17450#0" expanded="true" />
+            <element signature="e#17449#17450#0" expanded="true" />
+            <element signature="e#17578#17579#0" expanded="true" />
             <element signature="method#showInitializationErrorMessage#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#17795#18882#0" expanded="true" />
+            <element signature="e#18282#18312#0" expanded="true" />
+            <element signature="e#18427#18456#0" expanded="true" />
+            <element signature="e#18482#18753#0" expanded="true" />
+            <element signature="e#18752#18753#0" expanded="true" />
+            <element signature="e#18881#18882#0" expanded="true" />
             <element signature="method#startFinderIfStopped#0;class#CloudReco#0" expanded="false" />
             <element signature="method#stopFinderIfStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onTouchEvent#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doLoadTrackersData#0;class#CloudReco#0" expanded="false" />
-            <element signature="e#21439#21440#0" expanded="true" />
-            <element signature="e#21466#21467#0" expanded="true" />
+            <element signature="e#21706#21707#0" expanded="true" />
+            <element signature="e#21733#21734#0" expanded="true" />
             <element signature="method#onInitARDone#0;class#CloudReco#0" expanded="false" />
             <element signature="method#onVuforiaStarted#0;class#CloudReco#0" expanded="false" />
             <element signature="method#showProgressIndicator#0;class#CloudReco#0" expanded="false" />
@@ -3044,9 +3392,35 @@
             <element signature="method#doStopTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#doDeinitTrackers#0;class#CloudReco#0" expanded="false" />
             <element signature="method#setSampleAppMenuSettings#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#29740#29769#0" expanded="true" />
+            <element signature="e#29867#29909#0" expanded="true" />
             <element signature="method#menuProcess#0;class#CloudReco#0" expanded="false" />
             <element signature="method#scanlineStart#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32304#32506#0" expanded="true" />
+            <element signature="e#32505#32506#0" expanded="true" />
             <element signature="method#scanlineStop#0;class#CloudReco#0" expanded="false" />
+            <element signature="e#32577#32765#0" expanded="true" />
+            <element signature="e#32764#32765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/interdroid.swancore.swanmain/swaninterface/1.0.3/3a93b8052f687a734abee487616659245e91b5a4/swaninterface-1.0.3-sources.jar!/interdroid/swancore/swanmain/ValueExpressionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/samples/VuforiaSamples/app/SwanThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2370#2760#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
           </folding>
         </state>
       </provider>

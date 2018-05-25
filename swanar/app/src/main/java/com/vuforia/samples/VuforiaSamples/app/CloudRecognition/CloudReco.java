@@ -70,9 +70,10 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     SampleAppMenuInterface
 {
     private static final String LOGTAG = "CloudReco";
-    private final String id = "thomas";
+    private final String idLight = "light";
+    private final String idLocation = "location";
     boolean swanIsRunning = false;
-    int compteur = 0;
+    int counter = 0;
 
     private SampleApplicationSession vuforiaAppSession;
     
@@ -135,7 +136,9 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     private boolean mIsDroidDevice = false;
     String identite;
 
-    SwanThread thread1;
+    SwanThread lightThread;
+    SwanThread locationThread;
+
 
 
     // Called when the activity first starts or needs to be recreated after
@@ -232,7 +235,7 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     {
         Log.d(LOGTAG, "onResume");
         super.onResume();
-thread1.registerSWANSensor();
+lightThread.registerSWANSensor();
         //registerSWANSensor();
 
         showProgressIndicator(true);
@@ -271,7 +274,9 @@ thread1.registerSWANSensor();
         }
         if (!swanIsRunning)
         {
-            thread1 = new SwanThread(id,this);
+            lightThread = new SwanThread(idLight,this);
+            locationThread = new SwanThread(idLocation,this);
+
 
         }
     }
@@ -286,7 +291,8 @@ thread1.registerSWANSensor();
         Log.d(LOGTAG, "onPause");
         super.onPause();
 
-        thread1.unregisterSWANSensor();
+        lightThread.unregisterSWANSensor();
+        locationThread.unregisterSWANSensor();
 
         try
         {
@@ -311,7 +317,8 @@ thread1.registerSWANSensor();
     {
         Log.d(LOGTAG, "onDestroy");
         super.onDestroy();
-        thread1.unregisterSWANSensor();
+        lightThread.unregisterSWANSensor();
+        locationThread.unregisterSWANSensor();
 
         try
         {
@@ -745,15 +752,15 @@ thread1.registerSWANSensor();
         // Check if there are new results available:
         final int statusCode = finder.updateSearchResults();
 
-if (!thread1.checkForGoodLight() && (compteur == 10 || compteur % 100 == 0))
+if (!lightThread.checkForGoodLight() && (counter == 10 || counter % 100 == 0))
         {
 
             showToast("Warning, lighting may be insufficient");
 
         }
 
-compteur++;
-        Log.d("Light sensor", String.valueOf(compteur) );
+counter++;
+       // Log.d("Light sensor", String.valueOf(counter) );
 
         
         // Show a message if we encountered an error:

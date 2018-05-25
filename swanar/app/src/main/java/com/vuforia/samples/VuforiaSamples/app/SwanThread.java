@@ -24,6 +24,7 @@ public class SwanThread extends Thread{
     private String id;
     private Context context;
     String lightValue;
+    String locationValue;
     boolean pass = false;
 
  public   SwanThread(String id, Context context)
@@ -44,10 +45,65 @@ public class SwanThread extends Thread{
 
     public void registerSWANSensor(){
 
-        final String myExpression = "self@light:lux{ANY,0}";
+         String myExpression = "";
+
+     if (id.equals("light"))
+     {
+          myExpression = "self@light:lux{ANY,0}";
+
+
+         try {
+             ExpressionManager.registerValueExpression(context, id, (ValueExpression) ExpressionFactory.parse(myExpression), new ValueExpressionListener() {
+                 @Override
+                 public void onNewValues(String id, TimestampedValue[] newValues) {
+                     if (newValues.length > 0) {
+                         String str;
+                         str = String.valueOf(newValues[0]);
+                         Scanner scanner = new Scanner(str);
+                         scanner.useDelimiter(" ");
+                         lightValue = scanner.next();
+                         pass = true;
+                         Log.d(id, lightValue);
+                     }
+
+                 }
+             });
+         } catch (SwanException e) {
+             e.printStackTrace();
+         } catch (ExpressionParseException e) {
+             e.printStackTrace();
+         }
+
+     }
+     else if (id.equals("location"))
+     {
+          myExpression = "self@location:location{ANY,0}";
+
+         try {
+             ExpressionManager.registerValueExpression(context, id, (ValueExpression) ExpressionFactory.parse(myExpression), new ValueExpressionListener() {
+                 @Override
+                 public void onNewValues(String id, TimestampedValue[] newValues) {
+                     if (newValues.length > 0) {
+                         String str;
+                         str = String.valueOf(newValues[0]);
+                         Log.d(id, str);
+
+
+
+                     }
+                 }
+             });
+         } catch (SwanException e) {
+             e.printStackTrace();
+         } catch (ExpressionParseException e) {
+             e.printStackTrace();
+         }
+
+
+         }
         //  String myExpression = "self@light:lux{ANY,0}";
 
-        try {
+      /*try {
             ExpressionManager.registerValueExpression(context, id, (ValueExpression) ExpressionFactory.parse(myExpression), new ValueExpressionListener() {
                 @Override
                 public void onNewValues(String id, TimestampedValue[] newValues) {
@@ -67,11 +123,13 @@ public class SwanThread extends Thread{
             e.printStackTrace();
         } catch (ExpressionParseException e) {
             e.printStackTrace();
+        }*/
+
+
+
+
+
         }
-
-    }
-
-
     public void unregisterSWANSensor(){
 
         ExpressionManager.unregisterExpression(context, String.valueOf(id));
