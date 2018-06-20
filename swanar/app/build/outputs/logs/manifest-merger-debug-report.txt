@@ -1,17 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b13473f1f3a817e52bd766b77f051b8c\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f506e77461a0f8263dc67be546eab402\AndroidManifest.xml:2:1-11:12
-MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\a8c614e8b88bd97873e5b139bba1168d\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\0d841729f32a7f458f04c28b7d4b0fa9\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-155:12
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services:4.2.42] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\play-services-4.2.42.aar\79248e5903a943e6780a6bdf5cfa514c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\a593044c86ddf77c50ad17f73ea13c5c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0d8f9a539ae28be05eef249540a0442\AndroidManifest.xml:2:1-11:12
+MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\4a7fe08c0aca6adff95495fa6a500b3b\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\2beb8605605b022e3cd263fc909adeb2\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:2:1-169:12
 	package
 		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:3:5-18
 		INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml
@@ -30,16 +31,18 @@ uses-sdk
 ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:13:5-15:41
 INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:13:5-15:41
 INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:13:5-15:41
-MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:7:5-9:41
-MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b13473f1f3a817e52bd766b77f051b8c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b13473f1f3a817e52bd766b77f051b8c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f506e77461a0f8263dc67be546eab402\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f506e77461a0f8263dc67be546eab402\AndroidManifest.xml:5:5-7:41
-MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\a8c614e8b88bd97873e5b139bba1168d\AndroidManifest.xml:7:5-9:41
-MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\a8c614e8b88bd97873e5b139bba1168d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\0d841729f32a7f458f04c28b7d4b0fa9\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\0d841729f32a7f458f04c28b7d4b0fa9\AndroidManifest.xml:20:5-43
+MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:7:5-9:41
+MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:4.2.42] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\play-services-4.2.42.aar\79248e5903a943e6780a6bdf5cfa514c\AndroidManifest.xml:7:5-42
+MERGED from [com.google.android.gms:play-services:4.2.42] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\play-services-4.2.42.aar\79248e5903a943e6780a6bdf5cfa514c\AndroidManifest.xml:7:5-42
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\a593044c86ddf77c50ad17f73ea13c5c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\a593044c86ddf77c50ad17f73ea13c5c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0d8f9a539ae28be05eef249540a0442\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0d8f9a539ae28be05eef249540a0442\AndroidManifest.xml:5:5-7:41
+MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\4a7fe08c0aca6adff95495fa6a500b3b\AndroidManifest.xml:7:5-9:41
+MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\4a7fe08c0aca6adff95495fa6a500b3b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\2beb8605605b022e3cd263fc909adeb2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\2beb8605605b022e3cd263fc909adeb2\AndroidManifest.xml:20:5-43
 INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:13:5-15:41
 INJECTED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:13:5-15:41
 	android:targetSdkVersion
@@ -58,185 +61,213 @@ uses-feature#android.hardware.camera
 ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:33:5-60
 	android:name
 		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:33:19-57
+uses-feature#android.hardware.location.gps
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:34:19-63
 uses-permission#android.permission.CAMERA
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:36:5-65
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:37:5-65
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:36:22-62
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:37:22-62
 uses-permission#android.permission.INTERNET
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:39:5-67
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:40:5-67
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:39:22-64
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:40:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:45:5-79
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:46:5-79
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:45:22-76
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:46:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:46:5-80
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:47:5-80
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:46:22-77
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:47:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:47:5-81
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:48:5-81
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:47:22-78
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:48:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:48:5-75
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:49:5-75
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:48:22-72
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:49:22-72
+uses-permission#android.permission.ACCESS_GPS
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:50:5-69
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:50:22-66
+uses-permission#android.permission.ACCESS_LOCATION
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:51:5-74
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:51:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:52:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:53:5-79
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:53:22-76
 application
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:61:5-153:19
-MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:11:5-15:19
-MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b13473f1f3a817e52bd766b77f051b8c\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b13473f1f3a817e52bd766b77f051b8c\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f506e77461a0f8263dc67be546eab402\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f506e77461a0f8263dc67be546eab402\AndroidManifest.xml:9:5-20
-MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\a8c614e8b88bd97873e5b139bba1168d\AndroidManifest.xml:11:5-15:19
-MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\a8c614e8b88bd97873e5b139bba1168d\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\0d841729f32a7f458f04c28b7d4b0fa9\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\0d841729f32a7f458f04c28b7d4b0fa9\AndroidManifest.xml:22:5-20
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:70:5-167:19
+MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:11:5-15:19
+MERGED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\a593044c86ddf77c50ad17f73ea13c5c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\a593044c86ddf77c50ad17f73ea13c5c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0d8f9a539ae28be05eef249540a0442\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0d8f9a539ae28be05eef249540a0442\AndroidManifest.xml:9:5-20
+MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\4a7fe08c0aca6adff95495fa6a500b3b\AndroidManifest.xml:11:5-15:19
+MERGED from [interdroid.swancore.swansong:swansong:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swansong-1.0.3.aar\4a7fe08c0aca6adff95495fa6a500b3b\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\2beb8605605b022e3cd263fc909adeb2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\2beb8605605b022e3cd263fc909adeb2\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\c1bec2e55241d5017231995c531bec63\AndroidManifest.xml:14:9-35
+		ADDED from [interdroid.swancore.swanmain:swaninterface:1.0.3] C:\Users\Tom\.gradle\caches\transforms-1\files-1.1\swaninterface-1.0.3.aar\6c6d0b6bb13191ff6e47d942d8ca3290\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:64:9-41
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:73:9-41
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:65:9-40
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:74:9-40
 	android:allowBackup
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:62:9-35
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:71:9-35
 	android:description
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:63:9-54
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:72:9-54
 	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:66:9-47
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:75:9-47
 activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivitySplashScreen
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:83:9-93:20
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:92:9-102:20
 	android:screenOrientation
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:87:13-49
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:96:13-49
 	android:noHistory
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:86:13-37
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:95:13-37
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:85:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:94:13-93
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:84:13-96
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:93:13-96
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:88:13-92:29
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:97:13-101:29
 action#android.intent.action.MAIN
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:89:17-69
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:98:17-69
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:89:25-66
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:98:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:91:17-77
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:100:17-77
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:91:27-74
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:100:27-74
 activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:94:9-97:52
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:103:9-106:52
 	android:screenOrientation
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:97:13-49
-	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:96:13-93
-	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:95:13-92
-activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.AboutScreen
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:98:9-102:52
-	android:screenOrientation
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:102:13-49
-	android:noHistory
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:101:13-37
-	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:100:13-93
-	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:99:13-87
-activity#com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:103:9-107:54
-	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:106:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:106:13-49
 	android:configChanges
 		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:105:13-93
-	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:107:13-51
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:104:13-89
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:104:13-92
+activity#com.vuforia.samples.VuforiaSamples.ui.ActivityList.AboutScreen
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:107:9-111:52
+	android:screenOrientation
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:111:13-49
+	android:noHistory
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:110:13-37
+	android:configChanges
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:109:13-93
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:108:13-87
+activity#com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:112:9-116:54
+	android:launchMode
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:115:13-44
+	android:configChanges
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:114:13-93
+	android:theme
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:116:13-51
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:113:13-89
 activity#com.vuforia.samples.VuforiaSamples.app.VuMark.VuMark
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:108:9-112:54
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:117:9-121:54
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:111:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:120:13-44
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:110:13-93
-	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:112:13-51
-	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:109:13-77
-activity#com.vuforia.samples.VuforiaSamples.app.CylinderTargets.CylinderTargets
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:113:9-117:54
-	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:116:13-44
-	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:115:13-93
-	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:117:13-51
-	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:114:13-95
-activity#com.vuforia.samples.VuforiaSamples.app.VirtualButtons.VirtualButtons
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:118:9-122:54
-	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:121:13-44
-	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:120:13-93
-	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:122:13-51
-	android:name
 		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:119:13-93
+	android:theme
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:121:13-51
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:118:13-77
+activity#com.vuforia.samples.VuforiaSamples.app.CylinderTargets.CylinderTargets
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:122:9-126:54
+	android:launchMode
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:125:13-44
+	android:configChanges
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:124:13-93
+	android:theme
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:126:13-51
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:123:13-95
+activity#com.vuforia.samples.VuforiaSamples.app.VirtualButtons.VirtualButtons
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:127:9-131:54
+	android:launchMode
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:130:13-44
+	android:configChanges
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:129:13-93
+	android:theme
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:131:13-51
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:128:13-93
 activity#com.vuforia.samples.VuforiaSamples.app.UserDefinedTargets.UserDefinedTargets
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:123:9-127:54
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:132:9-136:54
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:126:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:135:13-44
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:125:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:134:13-93
 	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:127:13-51
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:136:13-51
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:124:13-101
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:133:13-101
 activity#com.vuforia.samples.VuforiaSamples.app.MultiTargets.MultiTargets
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:128:9-132:54
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:137:9-141:54
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:131:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:140:13-44
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:130:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:139:13-93
 	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:132:13-51
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:141:13-51
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:129:13-89
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:138:13-89
 activity#com.vuforia.samples.VuforiaSamples.app.CloudRecognition.CloudReco
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:133:9-137:54
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:142:9-146:54
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:136:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:145:13-44
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:135:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:144:13-93
 	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:137:13-51
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:146:13-51
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:134:13-90
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:143:13-90
 activity#com.vuforia.samples.VuforiaSamples.app.ObjectRecognition.ObjectTargets
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:138:9-142:54
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:147:9-151:54
 	android:launchMode
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:141:13-44
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:150:13-44
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:140:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:149:13-93
 	android:theme
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:142:13-51
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:151:13-51
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:139:13-95
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:148:13-95
 activity#com.swanar.serverside.UploadImage
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:144:9-147:52
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:153:9-156:52
 	android:screenOrientation
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:147:13-49
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:156:13-49
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:146:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:155:13-93
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:145:13-58
-activity#com.swanar.serverside.SignatureBuilder
-ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:149:9-152:52
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:154:13-58
+activity#com.vuforia.samples.VuforiaSamples.app.TransportActivity
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:158:9-161:52
 	android:screenOrientation
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:152:13-49
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:161:13-49
 	android:configChanges
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:151:13-93
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:160:13-93
 	android:name
-		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:150:13-63
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:159:13-81
+activity#com.vuforia.samples.VuforiaSamples.app.DisplayResultsOnScreen
+ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:162:9-165:52
+	android:screenOrientation
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:165:13-49
+	android:configChanges
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:164:13-93
+	android:name
+		ADDED from F:\SDK\vuforia sdk\swanar\app\src\main\AndroidManifest.xml:163:13-86

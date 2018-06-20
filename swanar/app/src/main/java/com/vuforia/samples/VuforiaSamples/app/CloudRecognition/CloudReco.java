@@ -16,8 +16,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -51,29 +53,41 @@ import com.vuforia.samples.SampleApplication.utils.LoadingDialogHandler;
 import com.vuforia.samples.SampleApplication.utils.SampleApplicationGLView;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 import com.R;
+import com.vuforia.samples.VuforiaSamples.app.DisplayResultsOnScreen;
 import com.vuforia.samples.VuforiaSamples.app.SwanThread;
 import com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenu;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuGroup;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuInterface;
 
+import java.io.DataInputStream;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Vector;
+import java.util.concurrent.TimeUnit;
 
 
-
-
-// The main activity for the CloudReco sample. 
+// The main activity for the CloudReco sample.
 public class CloudReco extends Activity implements SampleApplicationControl,
     SampleAppMenuInterface
 {
     private static final String LOGTAG = "CloudReco";
     private final String idLight = "light";
     private final String idLocation = "location";
+    private final String idOV = "ov";
     boolean swanIsRunning = false;
+    boolean isOvThreadActive = false;
     int counter = 0;
+    boolean continueScanning = true;
+    boolean continueLooking= true;
+    boolean useLocation = false;
+    String closestStation;
+    public static boolean tripsAcquired = false;
+    public static boolean go = true;
+
 
     private SampleApplicationSession vuforiaAppSession;
     
@@ -130,14 +144,15 @@ public class CloudReco extends Activity implements SampleApplicationControl,
     // declare scan line and its animation
     private View scanLine;
     private TranslateAnimation scanAnimation;
-    
+
     private double mLastErrorTime;
 
     private boolean mIsDroidDevice = false;
-    String identite;
+    //String identite;
 
     SwanThread lightThread;
     SwanThread locationThread;
+    SwanThread ovThread;
 
 
 
@@ -167,7 +182,15 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 
         StrictMode.setThreadPolicy(policy);
-       startSwan();
+
+        AssetManager assetManager = this.getAssets();
+
+
+
+
+        startSwan();
+
+
 
     }
     
@@ -236,6 +259,7 @@ public class CloudReco extends Activity implements SampleApplicationControl,
         Log.d(LOGTAG, "onResume");
         super.onResume();
 lightThread.registerSWANSensor();
+locationThread.registerSWANSensor();
         //registerSWANSensor();
 
         showProgressIndicator(true);
@@ -262,6 +286,89 @@ lightThread.registerSWANSensor();
     }
 
 
+    public String getOVValue (String stationName)
+    {
+        String ovValue = "";
+        try {
+            DataInputStream textFileStream = new DataInputStream(getAssets().open(String.format("stops.txt")));
+            Scanner scanner = new Scanner(textFileStream);
+            scanner.nextLine(); //first line
+            while (scanner.hasNextLine() && continueScanning)
+            {
+                /*String testt = scanner.nextLine();
+                testt = testt;*/
+                ovValue = searchLine(scanner.nextLine(), stationName);
+            }
+
+            // ovThread = new SwanThread(idOV, this, sc,);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        return ovValue;
+
+
+
+    }
+
+
+    String searchLine(String line, String stationName)
+    {
+        Scanner scanner = new Scanner(line);
+        scanner.useDelimiter(",");
+        String str = scanner.next();
+     //   Log.e("strrrr", str);
+
+        String code = str.substring(3);
+        //int code = Integer.parseInt(str.substring(3));
+
+        if (code.equals("00000000"))
+        {
+            continueScanning = false;
+            return "";
+        }
+
+        String name = scanner.next();
+        name = name.replace(" ", "");
+
+
+        if (stationName.equals(name))
+        {
+            continueScanning = false;
+            return code;
+        }
+
+            return "";
+
+
+
+    }
+
+    public void startOvThread (String identite)
+    {
+
+
+String stationName = identite.substring(10); //format Station_StationRAI
+
+       String ovValue = getOVValue(stationName);
+
+//Log.e("ovvalue", String.valueOf(ovValue));
+
+
+
+         ovThread = new SwanThread(idOV, this, ovValue);
+
+
+
+
+
+        isOvThreadActive = true;
+
+
+    }
+
+
     protected void startSwan()
     {
 
@@ -275,7 +382,10 @@ lightThread.registerSWANSensor();
         if (!swanIsRunning)
         {
             lightThread = new SwanThread(idLight,this);
+           // startActivity(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS));
             locationThread = new SwanThread(idLocation,this);
+
+
 
 
         }
@@ -293,6 +403,11 @@ lightThread.registerSWANSensor();
 
         lightThread.unregisterSWANSensor();
         locationThread.unregisterSWANSensor();
+        if (isOvThreadActive)
+        {
+            ovThread.unregisterSWANSensor();
+        }
+
 
         try
         {
@@ -319,6 +434,12 @@ lightThread.registerSWANSensor();
         super.onDestroy();
         lightThread.unregisterSWANSensor();
         locationThread.unregisterSWANSensor();
+        if (isOvThreadActive)
+        {
+            ovThread.unregisterSWANSensor();
+        }
+
+
 
         try
         {
@@ -595,7 +716,8 @@ lightThread.registerSWANSensor();
         // Process the Gestures
         if (mSampleAppMenu != null && mSampleAppMenu.processEvent(event))
             return true;
-        
+
+
         return mGestureDetector.onTouchEvent(event);
     }
     
@@ -683,6 +805,8 @@ lightThread.registerSWANSensor();
             
             mSampleAppMenu = new SampleAppMenu(this, this, "Cloud Reco",
                 mGlView, mUILayout, null);
+
+
             setSampleAppMenuSettings();
             
         } else
@@ -779,9 +903,40 @@ counter++;
             if (finder.getResultCount() > 0)
             {
                 TargetSearchResult result = finder.getResult(0);
-                identite = result.getTargetName();
+               String identite = result.getTargetName();
+               String stationName = "";
+
+                if (identite.contains("Station"))
+                {
+                    startOvThread(identite);
+                    stationName = identite.substring(10);
+                    try {
+                        TimeUnit.SECONDS.sleep(5);
+                    }
+                    catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+
+                    if (tripsAcquired)
+                    {
+                        Intent i = new Intent(this, DisplayResultsOnScreen.class);
+                        i.putExtra("result", ovThread.getStringWithAllTrips());
+                        i.putExtra("stationName", stationName);
+                        startActivity(i);
+                        go = true;
+                    }
+
+
+                }
+
+               /* if (tripsAcquired)
+                {
+
+                    tripsAcquired = false;
+                }*/
+
                 //showToast(identite);
-                try {
+              /*  try {
                     String escapedQuery = URLEncoder.encode(identite, "UTF-8"); ////open chrome
                     Uri uri = Uri.parse("http://www.google.com/#q=" + escapedQuery);
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -790,7 +945,7 @@ counter++;
                 catch (UnsupportedEncodingException u)
                 {
 
-                }
+                }*/
 
 
 
@@ -803,7 +958,28 @@ counter++;
                         trackable.startExtendedTracking();
                 }
             }
-        } 
+        }
+
+        if (useLocation && tripsAcquired)
+        {
+
+
+            /*try {
+                TimeUnit.SECONDS.sleep(5);
+            }
+            catch (InterruptedException e){
+                e.printStackTrace();
+            }*/
+
+            Intent i = new Intent(this, DisplayResultsOnScreen.class);
+            i.putExtra("result", ovThread.getStringWithAllTrips());
+            closestStation = closestStation.substring(10);
+            i.putExtra("stationName", closestStation);
+            startActivity(i);
+            tripsAcquired=false;
+            useLocation  =false;
+        }
+
     }
     
     
@@ -907,11 +1083,11 @@ counter++;
         SampleAppMenuGroup group;
         
         group = mSampleAppMenu.addGroup("", false);
-        group.addTextItem(getString(R.string.menu_back), -1);
+        group.addTextItem("SWAN AR", -1);
         
         group = mSampleAppMenu.addGroup("", true);
-        group.addSelectionItem(getString(R.string.menu_extended_tracking),
-            CMD_EXTENDED_TRACKING, false);
+        group.addSelectionItem("Activate location tracking",
+            2, false);
         
         mSampleAppMenu.attachMenu();
     }
@@ -975,11 +1151,153 @@ counter++;
                     mExtendedTracking = !mExtendedTracking;
                 
                 break;
-            
+
+            case 2:
+
+                mSampleAppMenu.hideMenu();
+                mSampleAppMenu.hide();
+
+
+                 useLocation = true;
+
+                 closestStation = lookForClosestLocation();
+
+                 if (closestStation != null)
+                 {
+                     closestStation = "Station_00" + closestStation;
+                     startOvThread(closestStation);
+                 }
+
+              /*  String closestStation = lookForClosestLocation();
+                closestStation = "Station_0" + closestStation;
+                //String ovValue = getOVValue(closestStation);
+
+
+
+
+                startOvThread(closestStation);
+                closestStation = closestStation.substring(9);
+                try {
+                    TimeUnit.SECONDS.sleep(5);
+                }
+                catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+
+
+
+
+                Intent i = new Intent(this, DisplayResultsOnScreen.class);
+                i.putExtra("result", ovThread.getStringWithAllTrips());
+                i.putExtra("stationName", closestStation);
+                startActivity(i);
+
+                if (ovThread.gettripsAcquired())
+                {
+
+                    ovThread.settripsAcquired(false);
+                }
+
+                break;*/
         }
         
         return result;
     }
+
+    String lookForClosestLocation ()
+    {
+
+       // double currentLatitude = 52.337397;
+       // double currentLongitude = 4.889817;
+        double currentLatitude =locationThread.getLatitudeValue();
+        double currentLongitude =locationThread.getLongitudeValue();
+
+
+        String sName = "";
+        double sLatitude, sLongitude;
+        //Log.e("locationnn", String.valueOf(currentLatitude) + " " + String.valueOf(currentLongitude));
+
+        try {
+            DataInputStream textFileStream = new DataInputStream(getAssets().open(String.format("stopsForLocationVVVX.xml")));
+            Scanner scanner = new Scanner(textFileStream);
+           // scanner.nextLine(); //first line
+            while (scanner.hasNextLine() && continueLooking)
+            {
+                String line = scanner.nextLine();
+                Scanner scan = new Scanner(line);
+                scan.useDelimiter(",");
+                scan.next();
+                scan.next();
+                scan.next();
+
+                sName = scan.next();
+                sName = sName.substring(0,sName.length()-1);
+                sName = sName.replace(" ", "");
+                sLatitude = scan.nextDouble();
+                sLongitude = scan.nextDouble();
+
+
+
+                   /* float[] results = new float[1];
+                    Location.distanceBetween(currentLatitude, currentLongitude, sLatitude, sLongitude, results);
+                    float distanceInMeters = results[0];
+                    Log.e("disstaa" , String.valueOf(distanceInMeters));
+                    boolean isWithin100m = distanceInMeters < 100;*/
+
+
+
+
+                /*if (Math.abs(currentLatitude-sLatitude) <= 0.001 && Math.abs(currentLongitude-sLongitude)<=0.001)
+                {
+                    continueLooking = false;
+                    Log.e("sname" , sName);
+
+                   // station
+
+
+                    return sName;
+
+
+                }*/
+                double distance = measure(currentLatitude, currentLongitude,sLatitude,sLongitude);
+                if ( distance <= 550)//in meters
+                {
+                    continueLooking = false;
+                    Log.e("sname" , sName);
+                    distance = distance;
+
+                    return sName;
+                }
+
+
+
+
+            }
+
+            // ovThread = new SwanThread(idOV, this, sc,);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Log.e("near NOWHERE", "NEAR NOWHERE");
+        Toast.makeText(this, "No Station where you are", Toast.LENGTH_LONG).show();
+
+        return null;
+    }
+
+    double  measure(double lat1, double lon1, double lat2, double lon2){
+        double R = 6378.137; // Radius of earth in KMs
+        double dLat = lat2 * Math.PI / 180 - lat1 * Math.PI / 180;
+        double dLon = lon2 * Math.PI / 180 - lon1 * Math.PI / 180;
+        double a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                        Math.sin(dLon/2) * Math.sin(dLon/2);
+        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        double d = R * c;
+        return d * 1000; // meters
+    }
+
+
 
     private void scanlineStart() {
         this.runOnUiThread(new Runnable() {

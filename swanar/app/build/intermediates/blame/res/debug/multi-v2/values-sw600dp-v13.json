@@ -4,7 +4,7 @@
             "outputFile": "F:\\SDK\\vuforia sdk\\swanar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\b13473f1f3a817e52bd766b77f051b8c\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "source": "C:\\Users\\Tom\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\a593044c86ddf77c50ad17f73ea13c5c\\res\\values-sw600dp\\values-sw600dp.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,11,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

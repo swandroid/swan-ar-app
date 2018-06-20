@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: interdroid.swancore.swansong:swansong-1.0.3">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/a8c614e8b88bd97873e5b139bba1168d/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/a8c614e8b88bd97873e5b139bba1168d/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/a8c614e8b88bd97873e5b139bba1168d/jars/libs/antlr-3.4-complete-no-antlrv2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/4a7fe08c0aca6adff95495fa6a500b3b/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/4a7fe08c0aca6adff95495fa6a500b3b/jars/libs/antlr-3.4-complete-no-antlrv2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/swansong-1.0.3.aar/4a7fe08c0aca6adff95495fa6a500b3b/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

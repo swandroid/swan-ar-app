@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stations>
 	<station>     
-		<stationname>Jeans</stationname>
-		<stationlatitude>red</stationlatitude>
-		<stationlongitude>5</stationlongitude>
-		<urltrain>5</urltrain>
-		<urlmetro>5</urlmetro>
-		<urlbustram>5</urlbustram>
+		<stationname>Amsterdam RAI</stationname>
+		<stationlatitude>0</stationlatitude>
+		<stationlongitude>0</stationlongitude>
+		<stationurl>https://drgl.nl/stop/NL:S:30007260</stationurl>
+	</station>
+	<station>     
+		<stationname>Amsterdam Zuid</stationname>
+		<stationlatitude>0</stationlatitude>
+		<stationlongitude>0</stationlongitude>
+		<stationurl>https://drgl.nl/stop/NL:S:30007268</stationurl>
 	</station>
 </stations>

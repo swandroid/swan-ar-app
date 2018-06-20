@@ -1,7 +1,13 @@
 package com.vuforia.samples.VuforiaSamples.app;
 
 
+import android.app.Activity;
+import android.content.res.XmlResourceParser;
+import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
+
+import com.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -11,16 +17,18 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-public class TransportSensor  {
+public class TransportActivity extends Activity {
 
     ArrayList<Station> stations = new ArrayList<Station>();
 
-    private XmlPullParserFactory xmlFactoryObject;
-String xmlpath = Environment.getExternalStorageDirectory() + "/swanARpics/stations.xml";
+   // private XmlPullParserFactory xmlFactoryObject;
+//String xmlpath = "android.resource://com.your.package/raw/xml/stations.xml";
 
-    TransportSensor ()
+    @Override
+    public void onCreate(Bundle savedInstanceState)
     {
-
+        super.onCreate(savedInstanceState);
+fetchXml();
     }
 
 
@@ -28,91 +36,129 @@ String xmlpath = Environment.getExternalStorageDirectory() + "/swanARpics/statio
 
 
 
-    public void parseXMLAndStoreIt(XmlPullParser myParser) {
-
-       /* List<String> a = new ArrayList<String>(); //frame debut
-        List<String> b = new ArrayList<String>(); //temps debut
-        List<String> c = new ArrayList<String>(); //frame fin
-        List<String> d = new ArrayList<String>();// temps fin
-
-        List<Integer> aa = new ArrayList<Integer>(); //frame debut
-        List<Integer> ba = new ArrayList<Integer>(); //temps debut
-        List<Integer> ca = new ArrayList<Integer>(); //frame fin
-        List<Integer> da = new ArrayList<Integer>();// temps fin
 
 
-        List<Integer> f = new ArrayList<Integer>(); //nombre frames
-        List<Integer> g = new ArrayList<Integer>(); //temps pfx*/
-        boolean sampe = false;
-        boolean timee = false;
+    public void fetchXml() {
+
+
+        XmlResourceParser xpp=getResources().getXml(R.xml.stations);
+
 
         int event;
+
+        String newstation = "station";
+        String stationname = "stationname";
+        String stationlatitude = "stationlatitude";
+        String stationlongitude = "stationlongitude";
+        String stationurl = "stationurl";
+
+        boolean sn = false;
+        boolean sla = false;
+        boolean slo = false;
+        boolean u = false;
+
+
         String text="";
-        String tagga = "";
-        String taggb = "";
+        String name = "";
+        String latitude = "";
+        String longitude = "";
+        String URL = "";
 
 
         try {
-            event = myParser.getEventType();
-
-            while (event != XmlPullParser.END_DOCUMENT) {
-
-
+            event = xpp.getEventType();
+            while (event != XmlResourceParser.END_DOCUMENT) {
                 switch (event){
                     case XmlPullParser.START_TAG:
 
-                        
-
-
+                        if (xpp.getName().equals(stationname))
+                        {
+                            sn = true;
+                        }
+                        else if (xpp.getName().equals(stationlatitude))
+                        {
+                            sla = true;
+                        }
+                        else if (xpp.getName().equals(stationlongitude))
+                        {
+                            slo = true;
+                        }
+                        else if (xpp.getName().equals(stationurl))
+                        {
+                            u = true;
+                        }
                         break;
 
-                    case XmlPullParser.TEXT:
-                        text = myParser.getText();
+                    case XmlResourceParser.TEXT:
+                        text = xpp.getText();
 
-
+                        if (sn)
+                        {
+                            name = text;
+                        }
+                        else if (sla)
+                        {
+                            latitude = text;
+                        }
+                        else if (slo)
+                        {
+                            longitude = text;
+                        }
+                        else if (u)
+                        {
+                            URL = text;
+                        }
                         break;
-
-
-                    case XmlPullParser.END_TAG:
-
-
-
-
-
-
-
+                    case XmlResourceParser.END_TAG:
+                        if (xpp.getName().equals(stationname))
+                        {
+                            sn = false;
+                        }
+                        else if (xpp.getName().equals(stationlatitude))
+                        {
+                            sla = false;
+                        }
+                        else if (xpp.getName().equals(stationlongitude))
+                        {
+                            slo = false;
+                        }
+                        else if (xpp.getName().equals(stationurl))
+                        {
+                            u = false;
+                        }
+                        else if (xpp.getName().equals(newstation))
+                        {
+                            stations.add(new Station(name,latitude,longitude,URL));
+                        }
                         break;
                 }
-
-
-
-
-                event = myParser.next();
+                event = xpp.next();
             }
-
-
-
-
-            parsingComplete = false;
-
         }
-
         catch (Exception e) {
             e.printStackTrace();
         }
+
+stations = stations;
+
+
+
+
+
     }
 
 
 
-    public void fetchXML(){
+
+ /*   public void fetchXML(){
         Thread thread = new Thread(new Runnable(){
             @Override
             public void run() {
                 try {
-                    File file = new File(xmlpath);
+                    File file = getResources().getXml(R.xml.stations);
                     InputStream stream = new FileInputStream(file);
 
-
+                    InputStream is = getResources().openRawResource(R.xml.stations);
 
                     xmlFactoryObject = XmlPullParserFactory.newInstance();
                     XmlPullParser myparser = xmlFactoryObject.newPullParser();
@@ -129,7 +175,7 @@ String xmlpath = Environment.getExternalStorageDirectory() + "/swanARpics/statio
             }
         });
         thread.start();
-    }
+    }*/
 
 
 }

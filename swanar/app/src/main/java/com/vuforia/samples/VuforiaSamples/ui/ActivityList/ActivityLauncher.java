@@ -28,8 +28,11 @@ import com.swanar.serverside.UploadImage;
 import com.vuforia.samples.VuforiaSamples.app.CloudRecognition.CloudReco;
 import com.vuforia.samples.VuforiaSamples.app.ImageTargets.ImageTargets;
 import com.vuforia.samples.VuforiaSamples.app.SwanThread;
+import com.vuforia.samples.VuforiaSamples.app.TransportActivity;
 
 import java.util.List;
+
+import com.vuforia.samples.VuforiaSamples.app.TransportActivity;
 
 import interdroid.swancore.swanmain.ExpressionManager;
 import interdroid.swancore.swanmain.SwanException;
@@ -46,9 +49,11 @@ import static android.content.ContentValues.TAG;
 public class ActivityLauncher extends ListActivity
 {
     
-    private String mActivities[] = { "On device AR", "Cloud AR"};
+    private String mActivities[] = { "Start SWANAR"};
 
     Button button0;
+    Button button2;
+
     String id = "thomas";
     boolean swanIsRunning = false;
     SwanThread thread1;
@@ -70,12 +75,30 @@ public class ActivityLauncher extends ListActivity
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
         
         setContentView(R.layout.activities_list);
-        setListAdapter(adapter);
+
+
+
+
+
+      //  setListAdapter(adapter);
 
 
 
 
 //startSwan();
+
+
+       button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context ctx = v.getContext();
+                Intent intent = new Intent(ctx, CloudReco.class);
+
+                ctx.startActivity(intent);
+            }
+        });
+
 
 
         button0 = (Button) findViewById(R.id.button0);
@@ -89,6 +112,11 @@ public class ActivityLauncher extends ListActivity
                ctx.startActivity(intent);
             }
         });
+
+     /*  Intent intent = new Intent(this,TransportActivity.class) ;
+        startActivity(intent);*/
+
+
     }
 
 
@@ -155,15 +183,15 @@ protected void startSwan()
         
         switch (position)
         {
-            case 0:
-                /*intent.putExtra("ACTIVITY_TO_LAUNCH",
+            /*case 0:
+                intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.ImageTargets.ImageTargets");
-                intent.putExtra("ABOUT_TEXT", "");*/
+                intent.putExtra("ABOUT_TEXT", "");
                 Intent intent = new Intent(ctx, ImageTargets.class);
 
 
                 ctx.startActivity(intent);
-                break;
+                break;*/
            /* case 6:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                         "app.VuMark.VuMark");
@@ -190,11 +218,11 @@ protected void startSwan()
                     "app.ObjectRecognition.ObjectTargets");
                 intent.putExtra("ABOUT_TEXT", "ObjectRecognition/OR_about.html");
                 break;*/
-            case 1:
+            case 0:
                 /*intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.CloudRecognition.CloudReco");
                 intent.putExtra("ABOUT_TEXT", "CloudReco/CR_about.html");*/
-                 intent = new Intent(ctx, CloudReco.class);
+                Intent intent = new Intent(ctx, CloudReco.class);
 
 
                 ctx.startActivity(intent);
