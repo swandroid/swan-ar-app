@@ -1207,8 +1207,8 @@ counter++;
     String lookForClosestLocation ()
     {
 
-       // double currentLatitude = 52.337397;
-       // double currentLongitude = 4.889817;
+      // double currentLatitude = 52.340894;
+      // double currentLongitude = 4.873153;
         double currentLatitude =locationThread.getLatitudeValue();
         double currentLongitude =locationThread.getLongitudeValue();
 
@@ -1233,8 +1233,18 @@ counter++;
                 sName = scan.next();
                 sName = sName.substring(0,sName.length()-1);
                 sName = sName.replace(" ", "");
-                sLatitude = scan.nextDouble();
-                sLongitude = scan.nextDouble();
+
+                String test1 = scan.next();
+                String test2 = scan.next();
+
+                if (isNumeric(test1) && isNumeric(test2))
+                {
+                    sLatitude = Double.parseDouble(test1);
+                    sLongitude = Double.parseDouble(test2);
+
+
+              /*  sLatitude = scan.nextDouble();
+                sLongitude = scan.nextDouble();*/
 
 
 
@@ -1264,13 +1274,12 @@ counter++;
                 {
                     continueLooking = false;
                     Log.e("sname" , sName);
-                    distance = distance;
 
                     return sName;
                 }
 
 
-
+                }
 
             }
 
@@ -1283,6 +1292,20 @@ counter++;
         Toast.makeText(this, "No Station where you are", Toast.LENGTH_LONG).show();
 
         return null;
+    }
+
+
+    public static boolean isNumeric(String str)
+    {
+        try
+        {
+            double d = Double.parseDouble(str);
+        }
+        catch(NumberFormatException nfe)
+        {
+            return false;
+        }
+        return true;
     }
 
     double  measure(double lat1, double lon1, double lat2, double lon2){
